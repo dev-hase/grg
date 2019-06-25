@@ -1,0 +1,172 @@
+
+// colors
+$accentColor = #90d1b3
+$textColor = #444
+$borderColor = #E6E8E6
+$codeBgColor = #0A0E2A
+$arrowBgColor = #0A0E2A
+
+$lightColor = #FEFDFB
+$accentColorB = #ABAE8A
+
+$fontA = 'Open Sans', sans-serif
+$fontB = 'Oleo Script Swash Caps', cursive
+
+// responsive breakpoints
+$MQNarrow = 1259px
+$MQMobile = 719px
+$MQMobileNarrow = 419px
+
+
+.panel 
+  display grid
+
+  grid-template-columns repeat( auto-fill, minmax(350px, 1fr) )
+  grid-gap 1rem
+  margin-top 3rem
+
+  :hover
+    background-color tint($accentColor, 70%) 
+    h2 
+      color lighten($accentColor, 15%) !important
+
+  h2 
+    box-sizing border-box
+    display block
+    width 100%
+    margin 0
+    padding 0
+    background-color darken($accentColor, 40%)
+    color $lightColor !important
+    padding 1rem
+    border-bottom darken($textColor, 30%)
+
+
+  h2:hover
+    background darken($textColor, 30%)
+    color tint($accentColor, 70%) !important
+
+  p 
+    padding 1rem
+
+  .panel-item 
+    display block
+    box-shadow 1px 1px 3px $textColor
+    padding 0
+
+    a 
+      color: $textColor
+
+    a:hover 
+      color: $textColor
+      text-decoration none
+
+    img 
+      width 100%
+      height 400px
+      object-fit cover
+      object-position top
+
+      @media (max-width $MQMobile)
+        height 45vh
+    
+
+
+@media (max-width: $MQNarrow) 
+  .panel 
+    grid-template-columns 1fr
+
+
+
+// code
+$lineNumbersWrapperWidth = 3.5rem
+$codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
+
+body, html  
+
+    background-color $lightColor !important
+
+    font-family $fontA
+    @media (min-width $MQMobile)
+        font-size 1.025rem !important
+        p, ul, ol
+            line-height 1.85 !important
+    @media (max-width $MQMobile)
+        letter-spacing -1px
+        font-size 1.1rem !important
+
+
+em
+    display: block
+    font-family $fontA
+    line-height 1.85 !important
+    color $accentColorB !important
+    padding-left 1.25rem
+    border-left 4px solid tint($accentColorB, 30%)
+
+.footer
+    font-family $fontA
+
+h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
+    font-family $fontA
+    color #4C4F64 !important
+    letter-spacing .05rem
+
+.navbar
+    border-bottom none !important
+    opacity .975
+    box-shadow 2px 0px 3px $textColor
+    background-color darken($accentColor, 40%) !important
+    background: linear-gradient(135deg, darken($accentColor, 50%) 0%, tint($accentColor, 10%) 100%) !important
+
+.navbar, .navbar .links
+    font-family $fontA
+    a
+        color $lightColor !important
+
+.navbar .links
+    background-color transparent !important
+
+.site-name
+    font-family $fontB
+    color $lightColor !important
+
+#main-title
+    font-family $fontB
+    color black !important
+    font-size 3.5rem  !important
+
+.nav-item .nav-link
+    color $accentColor !important
+
+.sidebar
+    background-color tint($accentColor, 70%) !important
+    background: linear-gradient(135deg, tint($accentColor, 80%) 0%, darken($accentColor, 30%) 100%) !important
+    font-family $fontA
+    width 16rem
+
+
+.sidebar-button
+    color $lightColor
+
+
+.theme-default-content
+    @media (min-width $MQMobile)
+        margin-top 3rem !important
+    
+
+// iframes like youtube
+
+iframe
+    display flex
+    min-width 100%
+    max-width 100%
+    width 100%
+    height 50vh
+    min-height 200px
+    @media (max-width $MQMobile)
+        height 30vh
+
+.fullWidth
+    .content
+        max-width 100% !important
