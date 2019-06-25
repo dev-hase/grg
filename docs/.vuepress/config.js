@@ -1,7 +1,15 @@
 module.exports = {
     title: 'Goju Ryu Guide',
     description: 'Lernhilfen für Goju Ryu',
-    plugins: ['@vuepress/pwa'],
+    plugins: {
+     '@vuepress/pwa': {
+        serviceWorker: true,
+        updatePopup: {
+          message: "New content is available.",
+          buttonText: "Refresh"
+        }
+      }
+    },
     themeConfig: {   
 
         sidebar: [
@@ -36,11 +44,12 @@ module.exports = {
         ],
 
       },
-    head: [
+        head: [
 
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['link', { rel: 'icon', href: '/logo.png' }],
-        ['link', { rel: 'aplle-touch-icon', href: '/logo.png' }],
-        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Joti+One&amp;subset=latin-ext' }],
-      ]
-  }
+            ['link', { rel: 'manifest', href: '/manifest.json' }],
+            ['link', { rel: 'icon', href: '/logo.png' }],
+            ['link', { rel: 'aplle-touch-icon', href: '/logo.png' }],
+            ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Joti+One&amp;subset=latin-ext' }],
+          ]
+      }
+
