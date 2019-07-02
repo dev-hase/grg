@@ -6,8 +6,8 @@ module.exports = {
      '@vuepress/pwa': {
         serviceWorker: true,
         updatePopup: {
-          message: "New content is available.",
-          buttonText: "Refresh"
+          message: "Inhalte wurden geändert",
+          buttonText: "nachladen..."
         }
       }
     },
@@ -57,7 +57,7 @@ module.exports = {
             ['link', { rel: 'manifest', href: '/manifest.json' }],
             ['link', { rel: 'icon', href: '/logo.png' }],
             ['link', { rel: 'aplle-touch-icon', href: '/logo.png' }],
-            ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Open+Sans:400,700&display=swap&subset=latin-ext' }],
+            ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster|Oswald:400,700&display=swap&subset=latin-ext' }],
           ]
       }
 

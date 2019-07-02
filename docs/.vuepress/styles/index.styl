@@ -1,7 +1,7 @@
 
 // colors
-$accentColor = #90d1b3
-$textColor = #444
+$accentColor = #57be68
+$textColor = #0b0117
 $borderColor = #E6E8E6
 $codeBgColor = #0A0E2A
 $arrowBgColor = #0A0E2A
@@ -9,8 +9,8 @@ $arrowBgColor = #0A0E2A
 $lightColor = #FEFDFB
 $accentColorB = #ABAE8A
 
-$fontA = 'Open Sans', sans-serif
-$fontB = 'Oleo Script Swash Caps', cursive
+$fontA = 'Oswald', sans-serif
+$fontB = 'Lobster', cursive
 
 // responsive breakpoints
 $MQNarrow = 1259px
@@ -28,7 +28,7 @@ $MQMobileNarrow = 419px
   :hover
     background-color tint($accentColor, 70%) 
     h2 
-      color lighten($accentColor, 15%) !important
+      color tint($accentColor, 70%) !important
 
   h2 
     box-sizing border-box
@@ -36,14 +36,23 @@ $MQMobileNarrow = 419px
     width 100%
     margin 0
     padding 0
-    background-color darken($accentColor, 40%)
-    color $lightColor !important
+    background-color tint($textColor, 40%)
+    color darken($lightColor, 5%) !important
+    font-family $fontB
     padding 1rem
     border-bottom darken($textColor, 30%)
+    font-weight bold
+    text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
+    letter-spacing .25rem
+    border-radius 15px 0 0 0
+    
+  h2::first-letter
+    text-transform uppercase
+    font-size 3rem
 
 
   h2:hover
-    background darken($textColor, 30%)
+    background-color tint($textColor, 40%)
     color tint($accentColor, 70%) !important
 
   p 
@@ -53,6 +62,7 @@ $MQMobileNarrow = 419px
     display block
     box-shadow 1px 1px 3px $textColor
     padding 0
+    border-radius 15px 0 30px 0
 
     a 
       color: $textColor
@@ -69,6 +79,9 @@ $MQMobileNarrow = 419px
 
       @media (max-width $MQMobile)
         height 45vh
+        
+  .panel-item:hover img
+    filter brightness(130%) contrast(110%)
     
 
 
@@ -85,6 +98,7 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
 body, html  
 
     background-color $lightColor !important
+    background-image url('/img/paper.png')
 
     font-family $fontA
     @media (min-width $MQMobile)
@@ -95,14 +109,33 @@ body, html
         letter-spacing -1px
         font-size 1.1rem !important
 
-
+.hero img
+    background-image url('/img/sun.png')
+    background-size cover
+    
+.action-button
+    border-radius 15px 0 30px 0 !important
+    transform: rotate(15deg) translate(0px, 1px) skew(17deg, -14deg)
+    box-shadow 1px 1px 3px $textColor
+        
 em
     display: block
+    position relative
     font-family $fontA
     line-height 1.85 !important
     color $accentColorB !important
     padding-left 1.25rem
-    border-left 4px solid tint($accentColorB, 30%)
+    border-left .25rem solid tint($accentColorB, 30%)
+    
+em:before
+    @media (min-width $MQNarrow)
+        content:"\A"
+        top .25rem
+        border-style solid
+        border-width 1.5rem 0 1.5rem 3rem;
+        border-color transparent transparent transparent #d46453
+        position absolute
+        left -4rem
 
 .footer
     font-family $fontA
@@ -111,17 +144,30 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-family $fontA
     color #4C4F64 !important
     letter-spacing .05rem
+    border-bottom none
 
 .navbar
     border-bottom none !important
     opacity .975
     box-shadow 2px 0px 3px $textColor
     background-color darken($accentColor, 40%) !important
-    background: linear-gradient(135deg, darken($accentColor, 50%) 0%, tint($accentColor, 10%) 100%) !important
+    background linear-gradient(135deg, darken($accentColor, 30%) 0%, tint($accentColor, 5%) 100%) !important
+    background-image: url('/img/navbar.png'), linear-gradient(135deg, darken($accentColor, 30%) 0%, tint($accentColor, 5%) 100%) !important
+    height 4rem
+    
+.navbar:after
+    content ''
+    position absolute
+    left 0
+    right 0
+    bottom 5px
+    height 3px
+    background darken($lightColor, 12.5%)
+
 
 .navbar, .navbar .links
     font-family $fontA
-    a
+    .nav-link
         color $lightColor !important
 
 .navbar .links
@@ -129,25 +175,65 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 
 .site-name
     font-family $fontB
-    color $lightColor !important
+    font-weight bold !important
+    color darken($lightColor, 5%) !important
+    text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
+    letter-spacing .1rem
+    transform: rotate(7deg) translate(0px, 1px) skew(17deg, -14deg)
+    z-index 100
+    font-size 1.75rem !important
+    
+.site-name::first-letter
+    font-size 3rem
 
 #main-title
     font-family $fontB
-    color black !important
+    color $textColor !important
     font-size 3.5rem  !important
+    text-shadow 4px 4px 2px darken($lightColor, 12.5%), 6px 6px 0px rgba(54, 54, 54, 0.5)
+    letter-spacing .35rem
+    line-height 5rem
+    
+#main-title::first-letter
+    font-size 7rem
 
 .nav-item .nav-link
     color $accentColor !important
 
 .sidebar
     background-color tint($accentColor, 70%) !important
-    background: linear-gradient(135deg, tint($accentColor, 80%) 0%, darken($accentColor, 30%) 100%) !important
+    background linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
+    background-image: url('/img/paper.png'), linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
     font-family $fontA
     width 16rem
+    top 4rem
 
 
 .sidebar-button
     color $lightColor
+    
+.page h1:first-of-type
+    font-family $fontB
+    font-weight bold
+    font-size 3rem
+    position relative
+    text-shadow 3px 3px 1px darken($lightColor, 5%), 4px 4px 0px rgba(54, 54, 54, 0.5)
+    letter-spacing .2rem
+    padding-bottom 1rem
+    
+.page h1:first-of-type .header-anchor
+    text-shadow none
+    font-size 3rem   
+    
+.page h1:first-of-type::first-letter
+    text-transform uppercase
+    font-size 7rem
+    letter-spacing -.1rem
+    line-height 5rem
+    @media (max-width $MQMobile)
+        font-size 5rem
+        line-height 6.5rem
+
 
 
 .theme-default-content
