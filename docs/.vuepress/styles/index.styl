@@ -7,7 +7,7 @@ $codeBgColor = #0A0E2A
 $arrowBgColor = #0A0E2A
 
 $lightColor = #FEFDFB
-$accentColorB = #ABAE8A
+$accentColorB = #d46453
 
 $fontA = 'Oswald', sans-serif
 $fontB = 'Lobster', cursive
@@ -21,8 +21,8 @@ $MQMobileNarrow = 419px
 .panel 
   display grid
 
-  grid-template-columns repeat( auto-fill, minmax(350px, 1fr) )
-  grid-gap 1rem
+  grid-template-columns repeat( auto-fill, minmax(300px, 1fr) )
+  grid-gap 1.5rem
   margin-top 3rem
 
   :hover
@@ -37,6 +37,7 @@ $MQMobileNarrow = 419px
     margin 0
     padding 0
     background-color tint($textColor, 40%)
+    background linear-gradient(135deg, tint($textColor, 35%) 0%, tint($textColor, 20%) 100%)
     color darken($lightColor, 5%) !important
     font-family $fontB
     padding 1rem
@@ -45,6 +46,7 @@ $MQMobileNarrow = 419px
     text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .25rem
     border-radius 15px 0 0 0
+    
     
   h2::first-letter
     text-transform uppercase
@@ -76,6 +78,7 @@ $MQMobileNarrow = 419px
       height 400px
       object-fit cover
       object-position top
+      
 
       @media (max-width $MQMobile)
         height 45vh
@@ -104,7 +107,7 @@ body, html
     @media (min-width $MQMobile)
         font-size 1.025rem !important
         p, ul, ol
-            line-height 1.85 !important
+            line-height 1.9 !important
     @media (max-width $MQMobile)
         letter-spacing -1px
         font-size 1.1rem !important
@@ -125,24 +128,16 @@ em
     line-height 1.85 !important
     color $accentColorB !important
     padding-left 1.25rem
-    border-left .25rem solid tint($accentColorB, 30%)
+    margin-bottom 2.4rem !important
+    border-left .5rem solid tint($accentColorB, 10%)
+    font-size 1.44rem
     
-em:before
-    @media (min-width $MQNarrow)
-        content:"\A"
-        top .25rem
-        border-style solid
-        border-width 1.5rem 0 1.5rem 3rem;
-        border-color transparent transparent transparent #d46453
-        position absolute
-        left -4rem
 
 .footer
     font-family $fontA
 
 h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-family $fontA
-    color #4C4F64 !important
     letter-spacing .05rem
     border-bottom none
 
@@ -151,8 +146,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     opacity .975
     box-shadow 2px 0px 3px $textColor
     background-color darken($accentColor, 40%) !important
-    background linear-gradient(135deg, darken($accentColor, 30%) 0%, tint($accentColor, 5%) 100%) !important
-    background-image: url('/img/navbar.png'), linear-gradient(135deg, darken($accentColor, 30%) 0%, tint($accentColor, 5%) 100%) !important
+    background-image url('/img/grunge.png'), linear-gradient(135deg, #46c7b6 0%, #7b6394 100%) !important
     height 4rem
     
 .navbar:after
@@ -182,6 +176,8 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     transform: rotate(7deg) translate(0px, 1px) skew(17deg, -14deg)
     z-index 100
     font-size 1.75rem !important
+    @media (max-width $MQMobile)
+        font-size 1.5rem !important
     
 .site-name::first-letter
     font-size 3rem
@@ -193,9 +189,14 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     text-shadow 4px 4px 2px darken($lightColor, 12.5%), 6px 6px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .35rem
     line-height 5rem
+    @media (max-width $MQMobile)
+        font-size 2.75rem !important
+        letter-spacing .2rem
     
 #main-title::first-letter
     font-size 7rem
+    @media (max-width $MQMobile)
+        font-size 5.8rem
 
 .nav-item .nav-link
     color $accentColor !important
@@ -203,7 +204,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 .sidebar
     background-color tint($accentColor, 70%) !important
     background linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
-    background-image: url('/img/paper.png'), linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
+    background linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
     font-family $fontA
     width 16rem
     top 4rem
@@ -225,7 +226,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     text-shadow none
     font-size 3rem   
     
-.page h1:first-of-type::first-letter
+#page-title::first-letter
     text-transform uppercase
     font-size 7rem
     letter-spacing -.1rem
@@ -237,6 +238,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 
 
 .theme-default-content
+    margin-top 1.5rem !important
     @media (min-width $MQMobile)
         margin-top 3rem !important
     
