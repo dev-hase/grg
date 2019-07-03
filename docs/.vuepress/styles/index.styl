@@ -22,13 +22,12 @@ $MQMobileNarrow = 419px
 
 .panel 
   display grid
-  grid-template-columns repeat( auto-fill, minmax(250px, 1fr) )
+  grid-template-columns repeat( auto-fill, minmax(350px, 1fr) )
   grid-gap 1.5rem
   margin-top 3rem
-  @media (max-width $MQMobile)
+  @media (max-width $MQMobileNarrow)
     display inline-block
     max-width 100%
-
 
 
   h2 
@@ -165,7 +164,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     opacity .975
     box-shadow 2px 0px 3px $textColor
     background-color darken($accentColor, 40%) !important
-    background-image url('/img/grunge.png'), linear-gradient(135deg, #46c7b6 0%, #7b6394 100%) !important
+    background-image url('/img/grunge.png'), linear-gradient(135deg, tint($accentColor, 15%) 0%, tint($textColor, 45%) 100%) !important
     height 4rem
     
 .navbar:after
@@ -208,9 +207,10 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-family $fontB
     color $textColor !important
     font-size 3.5rem  !important
-    text-shadow 4px 4px 2px darken($lightColor, 5%), 6px 6px 0px rgba(54, 54, 54, 0.5)
+    text-shadow 4px 4px 2px $lightColor, 6px 6px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .35rem
     line-height 5rem
+    transform: rotate(12deg) translate(0px, 1px) skew(17deg, -14deg)
     @media (max-width $MQMobile)
         font-size 2.75rem !important
         letter-spacing .2rem
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 
 .sidebar
     background-color tint($accentColor, 70%) !important
-    background linear-gradient(135deg, darken($lightColor, 10%) 36%, tint($textColor, 66%) 100%) !important
+    background linear-gradient(135deg, darken($lightColor, 10%) 36%, tint($textColor, 77%) 100%) !important
     font-family $fontA
     width 16rem
     top 4rem
@@ -260,8 +260,11 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
         font-size 5rem
         line-height 6.5rem
 
-.home .hero .description
-    color $accentColorB !important
+.home .hero .description, .footer
+    color $textColor !important
+    
+.footer
+    border-top none !important
 
 .theme-default-content
     margin-top 1rem !important
@@ -282,5 +285,14 @@ iframe
         height 30vh
 
 .fullWidth
-    .content
-        max-width 100% !important
+    .theme-default-content
+        max-width 100%
+        @media (min-width $MQNarrow)
+            margin-left -4rem
+            
+        @media (min-width $MQMobile)
+            margin-left -1rem
+                    
+.landingPage
+    background-image url('/img/collage.jpg')
+    min-height 100vh

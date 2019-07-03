@@ -1,5 +1,6 @@
 ---
 home: true
+pageClass: landingPage
 heroImage: /logo.png
 heroText: Goju Ryu Guide
 tagline: Trainingshilfen für Goju Ryu Karateka
