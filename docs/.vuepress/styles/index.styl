@@ -17,18 +17,19 @@ $MQNarrow = 1259px
 $MQMobile = 719px
 $MQMobileNarrow = 419px
 
+.header-anchor
+    display none
 
 .panel 
   display grid
-
-  grid-template-columns repeat( auto-fill, minmax(300px, 1fr) )
+  grid-template-columns repeat( auto-fill, minmax(250px, 1fr) )
   grid-gap 1.5rem
   margin-top 3rem
+  @media (max-width $MQMobile)
+    display inline-block
+    max-width 100%
 
-  :hover
-    background-color tint($accentColor, 70%) 
-    h2 
-      color tint($accentColor, 70%) !important
+
 
   h2 
     box-sizing border-box
@@ -46,6 +47,8 @@ $MQMobileNarrow = 419px
     text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .25rem
     border-radius 15px 0 0 0
+    @media (max-width $MQMobile)
+        line-height 1
     
     
   h2::first-letter
@@ -57,15 +60,18 @@ $MQMobileNarrow = 419px
     background-color tint($textColor, 40%)
     color tint($accentColor, 70%) !important
 
-  p 
-    padding 1rem
-
   .panel-item 
     display block
     box-shadow 1px 1px 3px $textColor
     padding 0
     border-radius 15px 0 30px 0
-
+    @media (max-width $MQMobile)
+        margin-bottom 2.75rem
+    p
+      padding 1rem
+      @media (max-width $MQMobile)
+        padding 0 .5rem .5rem
+    
     a 
       color: $textColor
 
@@ -82,6 +88,11 @@ $MQMobileNarrow = 419px
 
       @media (max-width $MQMobile)
         height 45vh
+    
+  .panel-item:hover
+    background-color tint($accentColor, 70%) 
+    h2 
+      color tint($accentColor, 70%) !important     
         
   .panel-item:hover img
     filter brightness(130%) contrast(110%)
@@ -118,7 +129,6 @@ body, html
     
 .action-button
     border-radius 15px 0 30px 0 !important
-    transform: rotate(15deg) translate(0px, 1px) skew(17deg, -14deg)
     box-shadow 1px 1px 3px $textColor
         
 em
@@ -131,7 +141,11 @@ em
     margin-bottom 2.4rem !important
     border-left .5rem solid tint($accentColorB, 10%)
     font-size 1.44rem
-    
+    @media (max-width $MQMobile)
+        font-size 1.2rem
+
+.search-box
+    z-index 100
 
 .footer
     font-family $fontA
@@ -178,9 +192,12 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-size 1.75rem !important
     @media (max-width $MQMobile)
         font-size 1.5rem !important
+        margin-left -.75rem
+        letter-spacing 0
     
 .site-name::first-letter
     font-size 3rem
+        
 
 #main-title
     font-family $fontB
@@ -192,6 +209,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     @media (max-width $MQMobile)
         font-size 2.75rem !important
         letter-spacing .2rem
+        line-height 1.2
     
 #main-title::first-letter
     font-size 7rem
@@ -203,15 +221,16 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 
 .sidebar
     background-color tint($accentColor, 70%) !important
-    background linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
-    background linear-gradient(135deg, tint($accentColor, 60%) 0%, darken($accentColor, 10%) 100%) !important
+    background linear-gradient(135deg, darken($lightColor, 10%) 36%, tint($textColor, 66%) 100%) !important
     font-family $fontA
     width 16rem
     top 4rem
-
+    @media (max-width $MQMobile)
+        top 1rem
 
 .sidebar-button
     color $lightColor
+    padding .6rem 0 !important
     
 .page h1:first-of-type
     font-family $fontB
@@ -238,7 +257,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 
 
 .theme-default-content
-    margin-top 1.5rem !important
+    margin-top 1rem !important
     @media (min-width $MQMobile)
         margin-top 3rem !important
     

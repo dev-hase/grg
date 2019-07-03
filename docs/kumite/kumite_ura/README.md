@@ -29,7 +29,7 @@ Bei den Kumite-Ura gewinnt grundsätzlich der Angreifer, da der Verteidiger eine
 - **Abwehr**: nach links ausweichen in Heikō dachi, 45°, Uchi-uke rechts, Ura-zuki links
 - **Konter**: Empi-uke rechts, Jōdan Tate-Zuki rechts
 
-<YouTube videoid="ymb6pERfOyk" start="4" end="16" />
+<YouTube videoid="ymb6pERfOyk" start="4" end="26" />
 
 ## 3 Form
 
