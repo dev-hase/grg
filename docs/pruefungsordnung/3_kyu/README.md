@@ -1,14 +1,18 @@
 ---
-templateKey: blog-post
-title: '2. Kyu (Braungurt)'
-date: 2019-02-10T16:23:52.521Z
-description: >-
-    Kihon Ido (Grundlagen mit Bewegungen) wendet die im Kihon geübten Formen an und kombiniert sie mit Vorwärtsbewegungen inner- und außerhalb der Grundstellungen.
+title: 3. Kyu (Braungurt)
+meta:
+  - name: description 
+    content: 'Kihon-Ido, Seenchin und Tensho, Bunkai für Gekisai I und 3 Kumite Formen' 
 tags:
   - 'kihon ido'
-  - '2. kyu'
+  - '3. kyu'
   - 'prüfung'
 ---
+
+# 3. Kyu (Braungurt)
+
+## Kihon-Ido / Kombinationen
+
 1. Haraiotoshi Uke / Chudan Mae-Geri / Chudan Gyaku-Zuki (Zenkutsu Dachi)
 2. Jodan Kizami-Zuki / Chudan Gyaku-Zuki (Suri-Ashi / Zenkutsu-Dachi)
 3. Chudan Soto-Uke / Jodan Uraken-Uchi (Sanchin Dachi)
@@ -18,22 +22,22 @@ tags:
 
 ## Kata
 
+[Seiyunchin](/kata/seiyunchin) und [Tenshō](/kata/tenshō)
+
 Tensho
-Sanseru
 
 ## Kata-Bunkai
 
-Gekisai II
+Gekisai I
 
-## Shiai-Kumite:
+## Shiai-Kumite
 
 Jiyu-Ippon-Kumite / Jiyu Kumite
 
 ## Yakusoku-Kumite
 
-Kumite-Ura (3)
-Nage-Waza (3)
+Yakusoku-Kumite: Kumite-Ura (3) / Nage-Waza (3)
 
 ## Goshin-Jitzu-Kumite
 
-Abwehr gegen Halten, Würgen, Stoßen
+Abwehr gegen Halten, Würgen, Stoßen 

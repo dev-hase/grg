@@ -1,14 +1,18 @@
 ---
-templateKey: blog-post
-title: '1. Kyu (Braungurt)'
-date: 2019-02-10T16:23:52.521Z
-description: >-
-    Kihon Ido (Grundlagen mit Bewegungen) wendet die im Kihon geübten Formen an und kombiniert sie mit Vorwärtsbewegungen inner- und außerhalb der Grundstellungen.
+title: 2. Kyu (Braungurt)
+meta:
+  - name: description 
+    content: 'Kihon-Ido, Tensho und Sanseru, Bunkai für Gekisai II und 2 Kumite Formen' 
 tags:
   - 'kihon ido'
-  - '1. kyu'
+  - '2. kyu'
   - 'prüfung'
 ---
+
+# 2. Kyu (Braungurt)
+
+## Kihon-Ido / Kombinationen
+
 1. Haraiotoshi Uke / Chudan Mae-Geri / Chudan Gyaku-Zuki (Zenkutsu Dachi)
 2. Jodan Kizami-Zuki / Chudan Gyaku-Zuki (Suri-Ashi / Zenkutsu-Dachi)
 3. Chudan Soto-Uke / Jodan Uraken-Uchi (Sanchin Dachi)
@@ -18,25 +22,18 @@ tags:
 
 ## Kata
 
+[Tenshō](/kata/tenshō) und [Sansēru](/kata/sansēru)
+
 Sanseru
-Sanchin
-(Die Kata Sanchin ist von männlichen Prüflingen
- mit freiem Oberkörper vorzuführen.)
 
 ## Kata-Bunkai
 
-Gekisai I oder
 Gekisai II
 
-## Shiai-Kumite
+## Shiai-Kumite:
 
 Jiyu-Ippon-Kumite / Jiyu Kumite
 
 ## Yakusoku-Kumite
 
-Kumite-Ura (3)
-Nage-Waza (3)
-
-## Goshin-Jitzu-Kumite
-
-Abwehr gegen Halten, Würgen, Stoßen 
+Kumite-Ura (3) / Nage-Waza (3)

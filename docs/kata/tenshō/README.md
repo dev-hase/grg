@@ -1,5 +1,5 @@
 ---
-title: Tensho
+title: Tenshō
 meta:
   - name: description
     content: 'Tenshō (jap. 転掌) ist eine Kata im Gōjū-Ryū-Karate. Sie stammt von Chōjun Miyagi, nach seinen Nachforschungen der Wurzeln des Gōjū-Ryū in Südchina. Übersetzt heißt Tenshō Drehende Hände oder Sechs Formen.'

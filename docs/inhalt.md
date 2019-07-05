@@ -13,4 +13,6 @@ meta:
 
 <ShowContents bereich="kumite" beschreibung="Verschiedene Partnerformen und Wurftechniken" />
 
+<ShowContents bereich="pruefungsordnung" beschreibung="Liste der Techniken die zum Erreichen einer bestimmten Graduierung notwendig sind" />
+
 </div>

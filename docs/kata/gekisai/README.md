@@ -10,7 +10,7 @@ tags:
   - '6. kyu'
   - '5. kyu'
 ---
-
+ 
 # {{ $page.title }}
 
 <ShowDescription />

@@ -1,14 +1,18 @@
 ---
-templateKey: blog-post
-title: '4. Kyu (Blaugurt)'
-date: 2019-02-10T16:23:52.521Z
-description: >-
-    Kihon Ido (Grundlagen mit Bewegungen) wendet die im Kihon geübten Formen an und kombiniert sie mit Vorwärtsbewegungen inner- und außerhalb der Grundstellungen.
+title: 6. Kyu (Grüngurt)
+meta:
+  - name: description 
+    content: 'Kihon-Ido, Gekisai I und Gekisai II, 2 Kumite Formen' 
 tags:
   - 'kihon ido'
-  - '4. kyu'
+  - '6. kyu'
   - 'prüfung'
 ---
+
+# 6. Kyu (Grüngurt)
+
+## Kihon-Ido / Kombinationen
+
 1. Haraiotoshi Uke / Chudan Mae-Geri / Chudan Gyaku-Zuki (Zenkutsu Dachi)
 2. Chudan Mawashi-Geri / Chudan Gyaku-Zuki (Zenkutsu Dachi)
 3. Age Uke / Chudan Gyaku-Zuki / Chudan Mae-Geri (Zenkutsu Dachi)
@@ -18,15 +22,11 @@ tags:
 
 ## Kata
 
-Saifa
-Seenchin
+[Gekisai I](/kata/gekisai) und [Gekisai II](/kata/gekisai)
 
-## Kumite
-
-Shiai-Kumite:
+## Shiai-Kumite
 Jiyu-Ippon-Kumite / Jiyu Kumite
 
-## Yakusoku-Kumite:
+## Yakusoku-Kumite
 
-Kumite-Ura (3)
-Nage-Waza (3) 
+Kumite-Ura (3) / Nage-Waza (3) 
