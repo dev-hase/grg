@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Taikyoku](/kata/taikyoku)
+[Taikyoku](/kata/taikyoku/)
 
 ## Kumite
 

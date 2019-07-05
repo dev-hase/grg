@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Tenshō](/kata/tenshō) und [Sansēru](/kata/sansēru)
+[Tenshō](/kata/tenshō/) und [Sansēru](/kata/sansēru/)
 
 Sanseru
 

@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Taikyoku](/kata/taikyoku) und [Gekisai I](/kata/gekisai)
+[Taikyoku](/kata/taikyoku/) und [Gekisai I](/kata/gekisai/)
 
 ## Kumite
 

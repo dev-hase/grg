@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Gekisai II](/kata/gekisai) und [Saifa](/kata/saifā)
+[Gekisai II](/kata/gekisai/) und [Saifa](/kata/saifā/)
 
 ## Shiai-Kumite
 

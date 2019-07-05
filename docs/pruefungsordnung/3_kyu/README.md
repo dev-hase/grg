@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Seiyunchin](/kata/seiyunchin) und [Tenshō](/kata/tenshō)
+[Seiyunchin](/kata/seiyunchin/) und [Tenshō](/kata/tenshō/)
 
 Tensho
 

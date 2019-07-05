@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Saifa](/kata/saifā) und [Seiyunchin](/kata/seiyunchin)
+[Saifa](/kata/saifā/) und [Seiyunchin](/kata/seiyunchin/)
 
 ## Shiai-Kumite:
 Jiyu-Ippon-Kumite / Jiyu Kumite

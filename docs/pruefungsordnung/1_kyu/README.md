@@ -23,7 +23,7 @@ tags:
 
 ## Kata
 
-[Sansēru](/kata/sansēru) und [Sanchin](/kata/sanchin) (Die Kata Sanchin ist von männlichen Prüflingen
+[Sansēru](/kata/sansēru/) und [Sanchin](/kata/sanchin/) (Die Kata Sanchin ist von männlichen Prüflingen
  mit freiem Oberkörper vorzuführen.)
 
 ## Kata-Bunkai

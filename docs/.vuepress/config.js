@@ -41,8 +41,16 @@ module.exports = {
             {
               title: 'Kumite',
               children: [
-                '/kumite/kumite_ura/',
-                '/kumite/nage_waza/',
+                ['/kumite/kumite_ura/', 'Kumite Ura Allgemein'],
+                ['/kumite/kumite_ura_1-3/', 'Kumite Ura 1-3'],
+                ['/kumite/kumite_ura_4-6/', 'Kumite Ura 4-6'],
+                ['/kumite/kumite_ura_7-9/', 'Kumite Ura 7-9'],
+                ['/kumite/kumite_ura_10-12/', 'Kumite Ura 10-12'],
+                ['/kumite/nage_waza/', 'Nage Waza Allgemein'],
+                ['/kumite/nage_waza_1-3/', 'Nage Waza 1-3'],
+                ['/kumite/nage_waza_4-6/', 'Nage Waza 4-6'],
+                ['/kumite/nage_waza_7-9/', 'Nage Waza 7-9'],
+                ['/kumite/nage_waza_10-12/', 'Nage Waza 10-12'],
               ]
             },
             {

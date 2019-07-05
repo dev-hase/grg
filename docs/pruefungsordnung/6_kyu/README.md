@@ -22,7 +22,7 @@ tags:
 
 ## Kata
 
-[Gekisai I](/kata/gekisai) und [Gekisai II](/kata/gekisai)
+[Gekisai I](/kata/gekisai/) und [Gekisai II](/kata/gekisai/)
 
 ## Shiai-Kumite
 Jiyu-Ippon-Kumite / Jiyu Kumite
