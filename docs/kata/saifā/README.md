@@ -16,6 +16,6 @@ tags:
 
 Die meisten Techniken der Kata werden aus einer engen Nahkampfposition ausgeführt. Das würde die Legende zur Entwicklung der Kata bestärken. Oft werden Angriff und Verteidigung mit der gleichen Hand ausgeführt. Es gibt viele kreisförmige Bewegungen, die eine Verbindung zum chinesischen Ursprung darstellen. Die Kata ist für die Übung der Fähigkeit zur Selbstverteidigung wichtig. In ihr werden einige wichtige Punkte aus dem Kyūsho Jitsu aufgegriffen und dessen Einbindung ins Training gelehrt.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="h7JrQHl35nM" />

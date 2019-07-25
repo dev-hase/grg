@@ -77,8 +77,8 @@ module.exports = {
         head: [
 
             ['link', { rel: 'manifest', href: '/manifest.json' }],
-            ['link', { rel: 'icon', href: '/logo.png' }],
-            ['link', { rel: 'aplle-touch-icon', href: '/logo.png' }],
+            ['link', { rel: 'icon', href: '/logox.png' }],
+            ['link', { rel: 'aplle-touch-icon', href: '/logox.png' }],
             ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster|Oswald:400,700&display=swap&subset=latin-ext' }],
           ]
       }

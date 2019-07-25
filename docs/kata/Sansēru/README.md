@@ -21,6 +21,6 @@ Laut dem Bubishi stammt der Name der Kata von den 36 Vitalpunkten des Körpers, 
 
 In Sansēru werden Bewegungen und Techniken speziell für den Nahkampf in alle vier Richtungen ausgeführt. In der Realität erfolgt ein Angriff oft vollständig überraschend und ohne Vorwarnung. Sansēru folgt diesem Rhythmus. Ruhe wechselt plötzlich in schnelle Aktion und langsamen, weichen Bewegungen folgen unmittelbar explosive Techniken. Sansēru dient dazu, diese Schnelligkeit und Kraft zu entwickeln.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="LdbxQinYfXo" />

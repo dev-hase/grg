@@ -19,6 +19,6 @@ Auch führt das Bunkai-Studium der Kata zu fruchtbaren Ergebnissen: So enthält 
 
 Um den Gegner aus dem Gleichgewicht zu bringen, wird ein vorgängiges Sinken mit darauffolgendem Anheben des eigenen Körpers bei der Kraftabgabe eingesetzt. Sēpai ist (neben Saifā) im Weltverband WKF (World Karate Federation) und in der JKA (Japan Karate Association) als Turnierkata für Vorausscheidungen in Wettbewerben Standard reglementiert. Im Gōjū-Ryū-Stil gilt Sēpai als dritt-höchste Kata.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="fswM6YOxj7k" />

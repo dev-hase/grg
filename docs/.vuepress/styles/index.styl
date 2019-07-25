@@ -45,6 +45,7 @@ $MQMobileNarrow = 419px
     padding 1rem
     border-bottom darken($textColor, 30%)
     font-weight bold
+    word-wrap break-word
     text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .25rem
     border-radius 15px 0 0 0
@@ -115,10 +116,12 @@ $codeLang = js ts html md vue css sass scss less stylus go java c sh yaml py
 
 body, html  
 
+    scroll-behavior smooth
     background-color $lightColor !important
     background-image url('/img/paper.png')
 
     font-family $fontA
+    font-size 16px !important
     @media (min-width $MQMobile)
         font-size 1.025rem !important
         p, ul, ol
@@ -129,7 +132,10 @@ body, html
 
 .hero img
     background-image url('/img/sun.png')
-    background-size cover
+    background-size contain
+    background-repeat no-repeat
+    max-height 500px !important
+    transform rotate(3.5deg)
     
 .action-button
     border-radius 15px 0 30px 0 !important

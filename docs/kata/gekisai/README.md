@@ -21,10 +21,10 @@ Gekisai-Dai-Ichi und Gekisai-Dai-Ni wirken insgesamt kraftvoll und dynamisch. Ge
 
 Gekisai-Dai-Ni ist durch den Vorwärts-/Rückwärts-Schritt im Sanchin-Dachi in Verbindung mit Kake-Uke vom Ablauf ein wenig länger. U. a. durch den Nekoashi-Dachi in Verbindung mit Mawashi-Uke gegen Ende der Kata wirkt sie weicher. In der Gekisai-Dai-Ni wird das „Jū“-Element (dt. weich) stärker betont.
 
-## Gekisai Dai Ichi
+## Gekisai Dai Ichi (Okinawa Style)
 
 <YouTube videoid="YtcRO7zceIg" />
 
-## Gekisai Dai Ni
+## Gekisai Dai Ni (Okinawa Style)
 
 <YouTube videoid="7ATBdHJcq-g" />

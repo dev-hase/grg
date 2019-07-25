@@ -17,6 +17,6 @@ Sūpārinpei wird auch Betchurin (chin. bai bu lian, dt. Die 100 Schritte verein
 
 Sūpārinpei enthält viele Offenhandtechniken mit Betonung auf beidhändigen Techniken. Der simultane Gebrauch beider Hände für Kontertechniken, Doppelschläge und Würfe zeigt das hohe Niveau dieser Kata und erlaubt fast endlose Kombinationen.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="ufr4QdN6Ko0" />

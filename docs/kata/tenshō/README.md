@@ -20,6 +20,6 @@ Zudem lernt man in Tenshō, seine Kraft über eine eher lang ausgeführte Atmung
 
 Die beiden Kata Sanchin und Tenshō ergänzen sich und bilden zusammen ein Paar, das die grundlegenden Charakteristiken des Gōjū-Ryū umfasst. Dennoch unterscheidet sich die Sanchin von der Tenshō darin, dass die Kata Tenshō mit einem entspannten Körper ausgeführt wird, hingegen die Sanchin eine starke Körperspannung und -kontrolle erfordert.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="jf9eT3P0aU8" />

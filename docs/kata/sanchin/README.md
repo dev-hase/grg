@@ -23,6 +23,6 @@ Higaonna veränderte die ursprüngliche, reine Offenhand-Fassung in die heute be
 
 Sanchin dient dazu, grundlegende geistige und physische (körperliche) Prinzipien auszubilden. Deshalb sollte der Schüler in Sanchin nicht nach Techniken der Selbstverteidigung suchen, obwohl diese sehr fein verborgen innerhalb der Katabewegungen vorhanden sind. In der Sanchin Kata wird der Schüler auf seinen sicheren Stand getestet. Außerdem wird geprüft, wie gut der Schüler Schläge und Tritte absorbieren kann. Diese Fähigkeit wird langsam im Kitae (Abhärtungsübungen) erlernt und ermöglicht dem Schüler später sehr harte Schläge einzustecken, ohne dabei Schaden zu nehmen. Es geht hier nicht nur um Abhärtung. Kitae wird auch geübt, um die Muskulatur zu lockern. Oft sind die Schläge zu hart. Es ist unbedingt darauf zu achen, dass der Trainierende keinen Schaden nimmt.
 
-## Video
+## Video (Okinawa Style)
 
 <YouTube videoid="kybxNOlnl20" />
