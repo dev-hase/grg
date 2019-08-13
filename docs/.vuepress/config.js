@@ -67,6 +67,16 @@ module.exports = {
                 ['/pruefungsordnung/9_kyu/', '9. Kyu (weiß)'],
               ]
             },
+                      {
+              title: 'Kobudo',
+              children: [
+                ['/kobudo/Shushi-no-Kun_Sho/', 'Shûshi-no-Kun (Shô)'],
+                ['/kobudo/Sakugawa-no-Kun_Sho/', 'Sakugawa-no-Kun (Shô)'],
+                ['/kobudo/Maezato-no-Tekko/', 'Maezato-no-Tekko'],
+                ['/kobudo/Chikin-Shitahaku-no-Sai/', 'Chikin-Shitahaku-no-Sai'],
+                ['/kobudo/Hamahiga-no-Tunfa/', 'Hamahiga-no-Tunfa'],
+              ]
+            },
         ],
         nav: [
           { text: 'Inhalt', link: '/inhalt.html' },

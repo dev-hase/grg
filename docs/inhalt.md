@@ -15,4 +15,6 @@ meta:
 
 <ShowContents bereich="pruefungsordnung" beschreibung="Liste der Techniken die zum Erreichen einer bestimmten Graduierung notwendig sind" />
 
+<ShowContents bereich="kobudo" beschreibung="Liste der Techniken die zum Erreichen einer bestimmten Graduierung notwendig sind" />
+
 </div>

@@ -1,7 +1,7 @@
 <template>
-
+    <div class="iframe-box">
        <iframe class="ytvideo" width="560" height="315" frameborder="0" :src="'https://www.youtube-nocookie.com/embed/'+videoid+'?rel=0&mute=1'+startAt+endAt+'&modestbranding=1&showinfo=0&iv_load_policy=3'"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    </div>
 </template>
 
 <script>
@@ -22,8 +22,17 @@ export default {
 
 <style lang="stylus" scoped>
     .ytvideo 
-        box-shadow 2px 1px 3px #111 !important
         filter grayscale(100%)
+        
+    .iframe-box
+        position relative
         margin 1.5rem 0
+        background-color #000
+        padding .75rem .53rem
+        border-radius .5rem
+        box-shadow 3px 4px 5px #555 !important
+        
+
+
 
 </style>

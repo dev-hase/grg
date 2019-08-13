@@ -47,15 +47,21 @@ $MQMobileNarrow = 419px
     font-weight bold
     word-wrap break-word
     text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
-    letter-spacing .25rem
+    letter-spacing .2rem
     border-radius 15px 0 0 0
+    font-size 1.3rem
     @media (max-width $MQMobile)
         line-height 1
-    
+        font-size 1rem
+        word-wrap break-word
+        letter-spacing 1px
     
   h2::first-letter
     text-transform uppercase
     font-size 3rem
+    @media (max-width $MQMobile)
+        font-size 2.5rem
+        margin-right -1px
 
 
   .panel-item:hover p
@@ -136,6 +142,8 @@ body, html
     background-repeat no-repeat
     max-height 500px !important
     transform rotate(3.5deg)
+    @media (max-width $MQMobile)
+        max-height 350px !important
     
 .action-button
     border-radius 15px 0 30px 0 !important
@@ -195,25 +203,32 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-family $fontB
     font-weight bold !important
     color darken($lightColor, 5%) !important
-    text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
+    //text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
+    text-shadow -2px -2px 0 darken($accentColorB, 20%), 2px -2px 0 $accentColorB, -2px 2px 0 $accentColorB, 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor
     letter-spacing .1rem
     transform: rotate(7deg) translate(0px, 1px) skew(17deg, -14deg)
     z-index 100
     font-size 1.75rem !important
     @media (max-width $MQMobile)
-        font-size 1.5rem !important
+        font-size 1.4rem !important
         margin-left -.75rem
         letter-spacing 0
     
 .site-name::first-letter
     font-size 3rem
+    
+h2
+    color $lightColor
+    text-transform uppercase
+    text-shadow -2px -2px 0 $accentColorB, 2px -2px 0 $accentColorB, -2px 2px 0 $accentColorB, 2px 2px 0 $accentColorB, 2px 2px 2px $textColor
         
 
 #main-title
     font-family $fontB
-    color $textColor !important
+    color $lightColor !important
     font-size 3.5rem  !important
-    text-shadow 4px 4px 2px $lightColor, 6px 6px 0px rgba(54, 54, 54, 0.5)
+    //text-shadow 4px 4px 2px $lightColor, 6px 6px 0px rgba(54, 54, 54, 0.5)
+    text-shadow -2px -2px 0 $textColor, 2px -2px 0 $textColor, -2px 2px 0 $textColor, 2px 2px 0 $textColor, 2px 2px 7px $textColor
     letter-spacing .35rem
     line-height 5rem
     transform: rotate(12deg) translate(0px, 1px) skew(17deg, -14deg)
@@ -226,7 +241,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
 #main-title::first-letter
     font-size 7rem
     @media (max-width $MQMobile)
-        font-size 5.8rem
+        font-size 5rem
 
 .nav-item .nav-link
     color $accentColor !important
@@ -263,7 +278,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     letter-spacing -.1rem
     line-height 5rem
     @media (max-width $MQMobile)
-        font-size 5rem
+        font-size 4rem
         line-height 6.5rem
 
 .home .hero .description, .footer
