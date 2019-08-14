@@ -2,8 +2,8 @@
   <div class="panel-item">
     <router-link :to="{ path: `/` + bereich + `/` }">
       <article>
-        <h2>{{ bereich }}</h2>
-        <img :src=" $withBase(`/img/` + bereich + `.png`) " />
+        <h2 class="panel-heading">{{ bereich }}</h2>
+        <img :src=" $withBase(`/img/` + bereich + `.svg`) " />
         <p>{{ beschreibung }}</p>
       </article>
     </router-link>

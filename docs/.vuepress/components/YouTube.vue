@@ -27,12 +27,19 @@ export default {
     .iframe-box
         position relative
         margin 1.5rem 0
-        background-color #000
-        padding .75rem .53rem
         border-radius .5rem
         box-shadow 3px 4px 5px #555 !important
+
+        border-top 2.5rem solid transparent
+        border-bottom 2.5rem solid transparent
+        border-left .2rem solid transparent
+        border-right .1rem solid transparent
         
-
-
+        border-image-slice 169 27 186 27
+        border-image-width 2.5rem 0.2rem 2.5rem 0.2rem
+        border-image-outset 0px 0px 0px 0px
+        border-image-repeat stretch stretch
+        border-image-source url("/img/film.png")
+        
 
 </style>

@@ -3,7 +3,7 @@
         <div class="panel-item" v-for="post in posts" v-if="post.path.includes( path ) && post.path != path">
                 <router-link :to="{ path: post.path }">
                     <article> 
-                        <h2> {{ post.title }} </h2>
+                        <h2 class="panel-heading"> {{ post.title }} </h2>
                         <p> {{ post.frontmatter.meta[0].content }} </p>
                     </article>
                 </router-link>   
