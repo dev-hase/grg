@@ -206,6 +206,7 @@ h1, h2, h3, h4, h5, h6, .hero h1, .description, .sidebar, .site-name
     font-family $fontB
     font-weight bold !important
     color darken($lightColor, 5%) !important
+    
     //text-shadow 3px 3px 1px tint($textColor, 10%), 4px 4px 0px rgba(54, 54, 54, 0.5)
     text-shadow -2px -2px 0 darken($accentColorB, 20%), 2px -2px 0 $accentColorB, -2px 2px 0 $accentColorB, 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor
     letter-spacing .1rem
@@ -240,6 +241,7 @@ h2:not(.panel-heading)
 #main-title
     font-family $fontB
     color $lightColor !important
+    color tint($accentColorB, 0%) !important
     font-size 3.5rem  !important
     //text-shadow 4px 4px 2px $lightColor, 6px 6px 0px rgba(54, 54, 54, 0.5)
     text-shadow -2px -2px 0 $textColor, 2px -2px 0 $textColor, -2px 2px 0 $textColor, 2px 2px 0 $textColor, 2px 2px 7px $textColor
@@ -281,6 +283,8 @@ h2:not(.panel-heading)
     text-shadow 3px 3px 1px darken($lightColor, 5%), 4px 4px 0px rgba(54, 54, 54, 0.5)
     letter-spacing .2rem
     padding-bottom 1rem
+    @media (max-width $MQMobile)
+        font-size 2.25rem
     
 .page h1:first-of-type .header-anchor
     text-shadow none
@@ -292,8 +296,8 @@ h2:not(.panel-heading)
     letter-spacing -.1rem
     line-height 5rem
     @media (max-width $MQMobile)
-        font-size 4rem
-        line-height 6.5rem
+        font-size 5rem
+        line-height 4.5rem
 
 .home .hero .description, .footer
     color $textColor !important

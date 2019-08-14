@@ -22,7 +22,8 @@ export default {
 
 <style lang="stylus" scoped>
     .ytvideo 
-        filter grayscale(100%)
+        //filter grayscale(100%)
+        filter sepia(.8)
         
     .iframe-box
         position relative
