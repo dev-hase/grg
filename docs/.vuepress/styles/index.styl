@@ -174,11 +174,19 @@ em
     column-gap 2.5rem
     column-rule 1px solid darken($textColor, 50%)
     text-align justify
+
     @media (max-width $MQMobile)
         columns 1
         margin 1rem 0
         text-align left
-        
+.custom-block.tip p::first-letter
+    float left
+    font-size 3.3rem
+    line-height 3.5rem
+    margin-right .4rem
+    margin-top .1rem
+    color tint($accentColorB, 66%)
+    text-shadow -2px -2px 0 tint($textColor, 20%), 2px -2px 0 tint($textColor, 20%), -2px 2px 0 tint($textColor, 20%), 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor
     
 .custom-block.tip p:first-child
     margin-top 0

@@ -39,7 +39,7 @@ export default {
         border-width 2.5rem .1rem
         
         border-image-slice 169 27 186 27
-        border-image-width 2.5rem 0.2rem 2.5rem 0.2rem
+        border-image-width 2.5rem 0.1rem 2.6rem 0.1rem
         border-image-outset 0px 0px 0px 0px
         border-image-repeat stretch stretch
         border-image-source url("/img/film.png")
