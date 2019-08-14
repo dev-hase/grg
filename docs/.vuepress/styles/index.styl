@@ -94,7 +94,7 @@ $MQMobileNarrow = 419px
 
     img 
       width 100%
-      height 325px
+      height 355px
       object-fit cover
       object-position top
       
@@ -163,6 +163,36 @@ em
     font-size 1.44rem
     @media (max-width $MQMobile)
         font-size 1.2rem
+        
+.custom-block.tip
+    background-color transparent
+    border none
+    margin 1.5rem 0 2rem
+
+    padding 0
+    columns 2
+    column-gap 2.5rem
+    column-rule 1px solid darken($textColor, 50%)
+    text-align justify
+    @media (max-width $MQMobile)
+        columns 1
+        margin 1rem 0
+        text-align left
+        
+    
+.custom-block.tip p:first-child
+    margin-top 0
+    
+.custom-block.danger
+    font-size 1.5rem
+    color lighten($lightColor, 20%)
+    background lighten($accentColorB, 10%)
+    padding .5rem 1rem
+    margin-bottom 2rem
+    display inline-block
+    box-shadow 6px 6px 1px darken($accentColorB, 50%), 7px 7px 0px darken($textColor, 30%)
+    border none
+    
 
 .search-box
     z-index 100
@@ -225,6 +255,7 @@ h2
     text-transform uppercase
     text-shadow -2px -2px 0 darken($accentColorB, 20%), 2px -2px 0 $accentColorB, -2px 2px 0 $accentColorB, 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor
     background tint($accentColor, 50%)
+    border 1px solid $textColor
     
 h2:not(.panel-heading)
     margin-left -2rem
@@ -335,11 +366,3 @@ iframe
     background-image url('/img/collage.jpg')
     min-height 100vh
     
-.wichtig
-    font-size 1.5rem
-    color lighten($lightColor, 20%)
-    background lighten($accentColorB, 10%)
-    padding .5rem 1rem
-    margin-bottom 1.44rem
-    display inline-block
-    box-shadow 6px 6px 1px darken($accentColorB, 50%), 7px 7px 0px darken($textColor, 30%)

@@ -13,7 +13,11 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 In der Shisōchin wird geübt, mittels Würge- oder Haltetechniken anzugreifen oder sich gegen solche Techniken zu wehren. Shisōchin konzentriert sich wie Sansēru auf einen Kampf in vier Richtungen. Zusätzlich zu Fingerstoßtechniken, die die Distanz zwischen sich und dem Gegner vergrößern, enthält Shisōchin auch Techniken für Nahkampfsituationen (z.B. Gelenkhebel).
+
+:::
 
 ## Video (Okinawa Style)
 

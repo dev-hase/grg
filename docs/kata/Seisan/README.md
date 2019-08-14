@@ -13,7 +13,11 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 Seisan beinhaltet viele kontrastierende Techniken, zum Beispiel schnelle und runde zu geraden Bewegungen oder schnelle, explosive zu langsamen, wuchtigen Bewegungen. Die schnellen und langsamen Techniken werden beide mit minimaler Körperbewegung ausgeführt, um die Kraftballung in den Punkt der Kraftabgabe zu konzentrieren. Die Kata eignet auch sich für Frauen die ein Kind auf dem Rücken tragen. Wie in Seiyunchin und Shisōchin werden auch hier Nahkampftechniken angewendet. Traditionelle Gōjū-Ryū-Techniken beinhalten sehr oft Greif- und Kontrolltechniken auf einen Angreifer, um verwundbare Körperteile zu treffen.
+
+:::
 
 ## Video (Okinawa Style)
 

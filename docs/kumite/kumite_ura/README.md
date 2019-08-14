@@ -12,6 +12,8 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 Kumite-Ura sind eine Reihe von Partnerformen mit festgelegten Techniken. Es existieren 12 fest vorgegebene Partnerübungen. Andere selbst entwickelte Formen, die dem oben beschriebenen Grundmuster entsprechen, sind aber ebenfalls möglich.
 
 Bei den Kumite-Ura gewinnt grundsätzlich der Angreifer, da der Verteidiger einen Fehler macht. Ziel der Übungen ist es u. a. diesen Fehler zu finden.
@@ -23,3 +25,5 @@ Bei den Kumite-Ura gewinnt grundsätzlich der Angreifer, da der Verteidiger eine
 [Kumite Ura 7-9](/kumite/kumite_ura_7-9/)
 
 [Kumite Ura 10-12](/kumite/kumite_ura_10-12/)
+
+:::

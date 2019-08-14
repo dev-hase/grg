@@ -13,7 +13,11 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 Kururunfā wird als Jū Kata (weiche Kata) eingeordnet. Die Kata zeichnet sich durch schnelle Bewegungen und Ausweichmanöver aus. Drei Arten des Ausweichens kommen dabei zur Anwendung: zur Seite gleiten, Zickzack-Bewegungen und Hüftausweichbewegungen. Alle Ausweichbewegungen werden schnell und geschmeidig ausgeführt. Wie der Name schon andeutet enthält die Kata auch noch verschiedenste Hebel und andere Techniken, welche auf die Gelenke des Gegners abzielen.
+
+:::
 
 ## Video (Okinawa Style)
 

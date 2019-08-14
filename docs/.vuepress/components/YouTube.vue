@@ -22,8 +22,7 @@ export default {
 
 <style lang="stylus" scoped>
     .ytvideo 
-        //filter grayscale(100%)
-        filter sepia(.8)
+        filter grayscale(90%)
         
     .iframe-box
         position relative
@@ -31,10 +30,13 @@ export default {
         border-radius .5rem
         box-shadow 3px 4px 5px #555 !important
 
-        border-top 2.5rem solid transparent
-        border-bottom 2.5rem solid transparent
-        border-left .2rem solid transparent
-        border-right .1rem solid transparent
+        //border-top 2.5rem solid transparent
+        //border-bottom 2.5rem solid transparent
+        //border-left .2rem solid transparent
+        //border-right .1rem solid transparent
+        
+        border-style solid
+        border-width 2.5rem .1rem
         
         border-image-slice 169 27 186 27
         border-image-width 2.5rem 0.2rem 2.5rem 0.2rem

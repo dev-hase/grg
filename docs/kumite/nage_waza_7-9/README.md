@@ -12,7 +12,11 @@ tags:
 
 <ShowDescription />
 
-<span class="wichtig">Wichtig: Keine Wurftechnik ausführen ohne vorher den Gegner durch einen Konter geschwächt zu haben!</span>
+::: danger
+
+Wichtig: Keine Wurftechnik ausführen ohne vorher den Gegner durch einen Konter geschwächt zu haben!
+
+:::
 
 ## 7 Form
 

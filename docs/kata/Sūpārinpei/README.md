@@ -13,9 +13,13 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 Sūpārinpei wird auch Betchurin (chin. bai bu lian, dt. Die 100 Schritte vereinen) genannt. Die Zahl 100 steht dabei für eine sehr große, fast unzählbare Menge, und die Schritte meinen Techniken. „Bai bu lian“ bedeutet demnach: „Eine Kata, die viele Techniken vereint“.
 
 Sūpārinpei enthält viele Offenhandtechniken mit Betonung auf beidhändigen Techniken. Der simultane Gebrauch beider Hände für Kontertechniken, Doppelschläge und Würfe zeigt das hohe Niveau dieser Kata und erlaubt fast endlose Kombinationen.
+
+:::
 
 ## Video (Okinawa Style)
 

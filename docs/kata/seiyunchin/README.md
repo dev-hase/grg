@@ -14,9 +14,13 @@ tags:
 
 <ShowDescription />
 
+::: tip
+
 Der Ursprung dieser Kata ist vermutlich auf das interne Xingyiquan-System zurückzuführen. In den Techniken kommen nur Handbewegungen und keine Fußtechniken vor, was für eine Kata ungewöhnlich ist.
 
 Seiyunchin wurde zur Förderung eines starken und stabilen Standes entwickelt. Ohne einen starken Stand ist es unmöglich, eine volle Kraftentfaltung zu erreichen. Deshalb wird die Stellung Shiko dachi in Seiyunchin stark betont. Auch enthält Seiyunchin mehrere Zieh- und Wurftechniken für Nahkampfsituationen.
+
+:::
 
 ## Video (Okinawa Style)
 
