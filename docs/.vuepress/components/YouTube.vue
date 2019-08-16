@@ -1,12 +1,17 @@
 <template>
-    <div class="iframe-box">
-       <iframe class="ytvideo" width="560" height="315" frameborder="0" :src="'https://www.youtube-nocookie.com/embed/'+videoid+'?rel=0&mute='+muteState+''+startAt+endAt+'&modestbranding=1&showinfo=0&iv_load_policy=3'"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <div class="video-box">
+        <div class="youtube" :id="videoid" :data-params="combineParams" style="width:640px;height:360px;"></div>
+    </div>    
 </template>
 
-<script>
+<script>  
 export default {
     props: ["videoid", "start", "end", "mute"],
+    mounted() {
+        let YTScript = document.createElement('script')
+        YTScript.setAttribute('src', '/YouTube.js')
+        document.head.appendChild(YTScript)
+    },
     computed: {
         startAt: function () {
             if (this.start) return this.start.replace (/^/,'&start=')
@@ -17,36 +22,67 @@ export default {
             else return ''
         },
         muteState: function () {
-            if (this.mute) return this.mute
-            else return '0'
+            if (this.mute) return this.mute.replace (/^/,'&mute=')
+            else return ''
+        },
+        combineParams: function () {
+            let myParams = this.muteState + this.startAt + this.endAt
+            return myParams
         }
+        
     }
+
 };  
 </script>
 
 <style lang="stylus" scoped>
-    .ytvideo 
-        filter grayscale(90%)
         
-    .iframe-box
+    .video-box
         position relative
-        margin 3rem 0
+        margin 3.2rem 0
         border-radius .5rem
         box-shadow 3px 4px 5px #555 !important
-
-        //border-top 2.5rem solid transparent
-        //border-bottom 2.5rem solid transparent
-        //border-left .2rem solid transparent
-        //border-right .1rem solid transparent
         
         border-style solid
-        border-width 2.5rem .1rem
+        border-width 3rem 1rem
         
-        border-image-slice 169 27 186 27
-        border-image-width 2.5rem 0.1rem 2.6rem 0.1rem
+        border-image-slice 70 27 68 27
+        border-image-width 3.3rem 0.75rem 3.3rem 0.75rem
         border-image-outset 0px 0px 0px 0px
         border-image-repeat stretch stretch
-        border-image-source url("/img/film.png")
+        border-image-source url("/img/film.jpg")
         
+    .youtube 
+        background-color #000
+        background-position center
+        background-size cover
+        background-repeat no-repeat
+        position relative
+        display block
+        overflow hidden
+        transition all 200ms ease-out
+        cursor pointer
+        margin auto
+        min-width 100%
+        max-width 100%
+        filter grayscale(90%) sepia(30%)
+        
+
+
+     iframe 
+        margin 40px auto 0 auto
+ 
+     .youtube .play 
+        background url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAERklEQVR4nOWbTWhcVRTHb1IJVoxGtNCNdal2JYJReC6GWuO83PM/59yUS3FRFARdFlwYP1CfiojQWt36sRCUurRIdVFXIn41lAoVdRGrG1M01YpKrWjiYmaSl8ybZJL3cd+YA//NLObd3++eO8x79z5jSq5Gw+8kov0AP8vMR5l1BtBZQM4B8ks75wCdZdYZZj5qLZ4hov2Nht9Z9vhKKSIaB/gI4M4w62KeAO6Mte4lYOq20FxrlqqOibhHmeWbvNC9ZfDX1mLae391aN6limO/gwgvAPJbWeAZuSDingdwXTBw7/0IsyaA/Fkh+KqOkD+YNfHej1QKD+y7iVlOhgLvFqFfNJvNGyuBJ+KDAF8MDd0tgS8y64OlgSdJMsysL4cG7SOHkyQZLhTee7+d2R2rAVy/S+Jd7/32ouBHAP4gNNRGQyTHc/84NhqNywZp5rvjjnnvt21aABFeCQ+RLwAf2hQ8s7sv9OCLk6AHNgQvIrvbfzKCD76g/O6cu7lf/iER/aQGgy448pExZmhdegAPhR9sObFWH1gT3lp7DaA/5bkIgJhZPgsNmz02novj+KqeApj1ubwXWe4kdyeznAgNvTpE/HQmvKqOMeuFogTUVQSRno+iaLRLAJF7uIgL9O4ubgL8aWgB7S44mNX+35YpICUiAvS9sBLkq1WzT+NFffl6AuoiApi6NT37h6sWkBIRZGkQ8YtLgyji6e1mBYTqCEBPG2Naz+0BWQgtoGoRgCzEsd9hAN1X5BfnFZASUfrSAFQNsyZ1FJASUVpHiLinDJG8U2cBZYogkrcNs5waBAGdstbeU9zdqpw0gPwwSAI6VUxHyFlDpOcHUUBBIuYNs14aZAE5RVwyzPr3/0EAEY0TyfGNjBWQvwZ+CTSbehfAH29mrID8bET0+0EUkAd8WYDOmqJ3ecsG30yr9wqRfm6Y+a1BEFDEjHfHvWmY9ck6CygHvBVr8Xhtb4ZE5HZA3y8DvBNA1TjnrmXWf+sioMwZX5V/VHXMGGMMoKdDCxCRvRWBdzKzdHEO+EisilbPyopHYqp6S9UCAsz4iojI7hUDAtyXVQgIDd6KnOoaWNkbI6FaPSuZGyMArsi7MZoloB4zviI/Nhr3X95jltwTRQmoIfgisy5ai+me67OI7fE4nrqjrqfK1t0eby0FPRB6oGVlchL3rgnfrq19RKbVBdhV9IOSwJmfmJi4vi/4ThERitwyCxVAFqydshuCX5awhQ9KtmuIWd8IDZED/nXT77rvVVv6sHRKwjYi91poqP7Dr+Y6JJ1VSZIMA3wkPNy6bX+o8Bcm0sXMdwM8Fxo0A3xORPaWBp6uPXsmbxCRD0NDL0dOANhVCXy6iAjMcjbcrMt3RITKwdMVRdFo+y5yvkL4eWZ+zHt/ZVD4dEVRNGotpst+dZZZH8k86lqn2pIvT/eqrNfn2xuyqYPZ8mv7s8pfn/8Pybm4TIjanscAAAAASUVORK5CYII=") no-repeat center center
+        background-size 64px 64px
+        position absolute
+        height 100%
+        width 100%
+        opacity 0.8
+        transition all 0.2s ease-out
+        z-index 9999
+          
+        .youtube .play:hover 
+            opacity 1
 
 </style>
