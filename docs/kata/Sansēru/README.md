@@ -1,5 +1,6 @@
 ---
 title: Sansēru
+order: 7
 meta:
   - name: description 
     content: 'Sansēru auch Sanseiru (jap. サンセール oder 三十六手; chinesisch 三十六, Pinyin sānshíliù) wird auch als die „Drachen-Kata“ bezeichnet.' 

@@ -1,5 +1,6 @@
 ---
 title: 'Nage Waza 7-9'
+order: 9
 meta:
   - name: description
     content: 'Die Formen 7 bis 9 der Nage Waza die bei der Prüfung zum 4. Kyu (zweiter Blaugurt) gezeigt werden.'

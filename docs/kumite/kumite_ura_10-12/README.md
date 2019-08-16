@@ -1,5 +1,6 @@
 ---
 title: 'Kumite Ura 10-12'
+order: 5
 meta:
   - name: description
     content: 'Hier die Formen 10 bis 12, die bei der Prüfung zum 3. Kyu (Braungurt) gezeigt werden.'
@@ -25,7 +26,7 @@ tags:
 - **Abwehr**: mit links zurück in Sanchin dachi, Uchi-uke rechts, Tsukame, mit links vor in Shiko dachi 90°, Chūdan Empi-Uchi links
 - **Konter**: mit rechts (Angreifer im Rücken) in Shiko dachi, Empi-uchi nach hinten links
 
-<YouTube videoid="DuBlbEGmtPM" />
+<YouTube videoid="DuBlbEGmtPM" mute="1" />
 
 ## 12 Form
 
@@ -33,4 +34,4 @@ tags:
 - **Abwehr**: mit links zurück in Heikō dachi 90°, Teishō-Ate rechts
 - **Konter**: mit Kopf nach rechts leicht ausweichen, Streckhebel links, mit linkem Fuß Stand verbessern, Gedan Haitō-uchi rechts oder Teishō-ate oder Shutō-uchi
 
-<YouTube videoid="kbp9RIW9lro" />
+<YouTube videoid="kbp9RIW9lro" mute="1" />

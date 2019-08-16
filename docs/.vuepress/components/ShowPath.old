@@ -1,6 +1,6 @@
 <template>
     <section class="panel">
-        <div class="panel-item" v-for="post in posts" v-if="post.path != path">
+        <div class="panel-item" v-for="post in posts" v-if="post.path.includes( path ) && post.path != path">
                 <router-link :to="{ path: post.path }">
                     <article> 
                         <h2 class="panel-heading"> {{ post.title }} </h2>
@@ -15,13 +15,9 @@
 export default {
     props: ["path"],
     computed: {
-        
         posts() {
             return this.$site.pages
-                .filter(x => x.path.startsWith(this.path))
-                .sort((a, b) => (a.frontmatter.order > b.frontmatter.order) ? 1 : -1)
         },      
     }
 };  
 </script>
-

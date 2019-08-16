@@ -1,5 +1,6 @@
 ---
 title: Sanchin
+order: 3
 meta:
   - name: description
     content: 'Sanchin (jap. サンチン auch 三戦) wurde von Higaonna Kanryō aus China zurückgebracht (chin. Ursprung: Stil der 18 Arhats, jap. 十八羅漢拳, Jūhachi-rakan-ken). Der Name der Kata wird oft mit „Drei Schlachten“ übersetzt, womit der Körper, das Bewusstsein und der Geist gemeint sind. Sanchin ist wie Tenshō auch eine Basis-Kata (Kihon-Kata).'

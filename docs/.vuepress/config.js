@@ -89,6 +89,7 @@ module.exports = {
             ['link', { rel: 'manifest', href: '/manifest.json' }],
             ['link', { rel: 'icon', href: '/logox.png' }],
             ['link', { rel: 'aplle-touch-icon', href: '/logox.png' }],
+            ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com/', crossorigin: 'anonymous' }],
             ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lobster|Oswald:400,700&display=swap&subset=latin-ext' }],
           ]
       }

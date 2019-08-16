@@ -1,5 +1,6 @@
 ---
 title: 'Nage Waza 10-12'
+order: 10
 meta:
   - name: description
     content: 'Die Formen 10 bis 12 der Nage Waza die bei der Prüfung zum 3. Kyu (Braungurt) gezeigt werden.'

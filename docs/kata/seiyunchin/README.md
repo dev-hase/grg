@@ -1,5 +1,6 @@
 ---
 title: Seiyunchin
+order: 6
 meta:
   - name: description 
     content: 'Seiyunchin oder Seienchin/Sēenchin (japanisch 征遠鎮 oder 征引鎮); Sui bedeutet, den sich ändernden Situationen eines Kampfes frei zu folgen, Yun beschreibt die Bewegung und Jing bedeutet Kraft oder Energie. Seiyunchin lehrt also, mit konstantem Druck den Bewegungen eines Kampfes folgen zu können. Der Name Seiyunchin kann zudem als „Ziehen“ interpretiert werden.'

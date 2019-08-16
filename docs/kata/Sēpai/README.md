@@ -1,5 +1,6 @@
 ---
 title: Sēpai
+order: 10
 meta:
   - name: description 
     content: 'Sēpai, auch Seipai, (jap. 十八手). Der ursprünglich chinesische Name der Kata (chinesisch Shi Ba Shou) bedeutet übersetzt die Zahl 18. Diese Bezeichnung ist auf die darin enthaltenen 18 Hand- und Beintechniken zurückzuführen. Sēpai hat ihren Ursprung in der chinesischen Form Shiba Luohan Quan aus dem Shaolin Quan-Stil.' 

@@ -1,5 +1,6 @@
 ---
 title: 'Nage Waza Allgemein'
+order: 6
 meta:
   - name: description
     content: 'Auch diese Techniken sind an realistischer Selbstverteidigung orientiert. Die Partner stehen sich in freier Stellung gegenüber. Die Technik des Angreifers wird geblockt, danach erfolgt eine kurze Schocktechnik mit einem anschließenden Wurf und einer Abschlußtechnik.'

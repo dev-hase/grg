@@ -1,5 +1,6 @@
 ---
 title: Shisōchin
+order: 8
 meta:
   - name: description 
     content: 'Shisōchin ist eine Abwandlung der chinesischen Form Shi Zhen Jing. Shi bedeutet echte Stärke, Zhen beschreibt das Würgen oder Halten, Jing steht wiederum für Kraft oder Energie. Higaonna Kanryō erlernte diese Kata von Ryū Ryū Ko, einem Meister des Baihequan. Man nennt die Kata auch vier kämpfende Affen.' 

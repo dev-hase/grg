@@ -1,5 +1,6 @@
 ---
 title: Saifā
+order: 5
 meta:
   - name: description
     content: 'Saifā (jap. 砕破, 碎破 oder サイファー, dt. Zerbrechen, Zerschmettern) gehört zu den Kata der Shōrei-Ryū-Richtung und heißt im chinesischen Zuofa. Eine Legende erzählt, dass man die Saifā auf einem Boot entwickelte. Deswegen sind die Bewegungen der Kata auch eher nach vorne und nach hinten ausgerichtet als zu den Seiten. Die Kata ist in Südchina entstanden.'

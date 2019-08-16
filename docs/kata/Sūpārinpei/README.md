@@ -1,5 +1,6 @@
 ---
 title: Sūpārinpei
+order: 12
 meta:
   - name: description 
     content: 'Sūpārinpei (jap. 壱百零八手 oder スーパーリンペイ, chin. Yi Bai Ling Ba) ist die höchste und schwierigste Kata. Der Ursprung der Kata liegt im Stil der 18 Arhats. Die chinesische Bedeutung lässt sich mit der Zahl 108 (yi bai ling ba) übersetzen. Nach buddhistischem Verständnis verfügt jeder Mensch über 108 Quellen des Unglücks, die er im Laufe seines Lebens zu überwinden hat. Die Zahl 108 verweist einerseits auf den buddhistischen Ursprung der Kata und andererseits auf die Anzahl der darin enthaltenen Techniken.' 

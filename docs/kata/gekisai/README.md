@@ -1,5 +1,6 @@
 ---
 title: Gekisai
+order: 2
 meta:
   - name: description 
     content: 'Gekisai, auch Gegsai, (jap. 撃砕, dt. „Festung niederreißen“); es gibt die Varianten Gekisai-Dai-Ichi (Gekisai I) und Gekisai-Dai-Ni (Gekisai II).' 
@@ -32,3 +33,9 @@ Gekisai-Dai-Ni ist durch den Vorwärts-/Rückwärts-Schritt im Sanchin-Dachi in 
 ## Gekisai Dai Ni (Okinawa Style)
 
 <YouTube videoid="7ATBdHJcq-g" />
+
+## Bunkai
+
+<YouTube videoid="1hZ4iOHPuGU" start="151"/>
+
+<YouTube videoid="BVE4wIz8Vas" />

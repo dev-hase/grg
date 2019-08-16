@@ -1,5 +1,6 @@
 ---
 title: Taikyoku
+order: 1
 meta:
   - name: description
     content: 'Taikyoku (jap. 太極, dt. das sehr große Äußerste, die großen Gegensätze oder Universum) ist eine Reihe von Kata im Karate.'

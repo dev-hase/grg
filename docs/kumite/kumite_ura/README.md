@@ -1,5 +1,6 @@
 ---
 title: 'Kumite Ura - Allgemein'
+order: 1
 meta:
   - name: description
     content: 'Diese Techniken sind im Bereich Selbsverteidigung relevant. Die Distanz ist  kurz. In der Regel reichen Sanchin-Dachi Stellungen, um den Partner zu erreichen. Auf einen Angriff erfolgt eine Abwehrtechnik mit Konter, die der Angreifer seinerseits wieder blockt und mit einem abschließenden Konter beantwortet.'
