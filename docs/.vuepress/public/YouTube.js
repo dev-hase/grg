@@ -22,15 +22,12 @@ r(function(){
         // Based on the YouTube ID, we can easily find the thumbnail image
         videos[i].style.backgroundImage = 'url(http://i.ytimg.com/vi/' + videos[i].id + '/sddefault.jpg)';
 
-        // Overlay the Play icon to make it look like a video player
-        var play = document.createElement("div");
-        play.setAttribute("class","play");
-        videos[i].appendChild(play);
+
 
         videos[i].onclick = function() {
             // Create an iFrame with autoplay set to true
             var iframe = document.createElement("iframe");
-            var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1";
+            var iframe_url = "https://www.youtube-nocookie.com/embed/" + this.id + "?autoplay=1&autohide=1";
             if (this.getAttribute("data-params")) iframe_url+='&'+this.getAttribute("data-params");
             iframe.setAttribute("src",iframe_url);
             iframe.setAttribute("frameborder",'0');
