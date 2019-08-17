@@ -36,6 +36,7 @@ r(function(){
             iframe.style.width  = this.style.width;
             iframe.style.height = this.style.height;
 
+
             // Replace the YouTube thumbnail with YouTube Player
             this.parentNode.replaceChild(iframe, this);
         }

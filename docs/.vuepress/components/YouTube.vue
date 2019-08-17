@@ -52,6 +52,9 @@ export default {
         border-image-repeat stretch stretch
         border-image-source url("/img/film.jpg")
         
+        filter grayscale(100%) sepia(30%)
+  
+        
     .youtube 
         background-color #000
         background-position center
@@ -65,7 +68,7 @@ export default {
         margin auto
         min-width 100%
         max-width 100%
-        filter grayscale(90%) sepia(30%)
+        
         z-index 1
 
 </style>

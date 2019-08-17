@@ -30,15 +30,21 @@ Die Varianten der Taikyoku basieren auf folgenden Ständen (Tachi), Abwehrtechni
 * Shiko dachi, Haraiotoshi-Uke
 * Shiko dachi, Chūdan Oizuki
 
+<YouTube videoid="DQkS-Wgur3E" />
+
 ## Taikyoku chūdan
 
 * Sanchin dachi, Chudan-uke (auch Yoko-uke oder Uchi-uke)
 * Zenkutsu dachi, Chudan Oizuki
 
+<YouTube videoid="lbUuaEcQ-60" />
+
 ## Taikyoku jōdan
 
 * Sanchin dachi, Age-uke
 * Zenkutsu dachi, Jōdan Oizuki
+
+<YouTube videoid="19cqhTzDgxo" />
 
 ## Taikyoku kake-uke
 
