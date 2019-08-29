@@ -20,17 +20,18 @@ r(function(){
     var nb_videos = videos.length;
     for (var i=0; i<nb_videos; i++) {
         // Based on the YouTube ID, we can easily find the thumbnail image
-        videos[i].style.backgroundImage = 'url(http://i.ytimg.com/vi/' + videos[i].id + '/sddefault.jpg)';
+        videos[i].style.backgroundImage = 'url(http://i.ytimg.com/vi/' + videos[i].id + '/hqdefault.jpg)';
 
 
 
         videos[i].onclick = function() {
             // Create an iFrame with autoplay set to true
             var iframe = document.createElement("iframe");
-            var iframe_url = "https://www.youtube-nocookie.com/embed/" + this.id + "?autoplay=1&autohide=1";
+            var iframe_url = "https://www.youtube-nocookie.com/embed/" + this.id + "?autoplay=1&autohide=1&modestbranding=1&showinfo=0&iv_load_policy=3";
             if (this.getAttribute("data-params")) iframe_url+='&'+this.getAttribute("data-params");
             iframe.setAttribute("src",iframe_url);
             iframe.setAttribute("frameborder",'0');
+            iframe.setAttribute("allow",'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen');
 
             // The height and width of the iFrame should be the same as parent
             iframe.style.width  = this.style.width;

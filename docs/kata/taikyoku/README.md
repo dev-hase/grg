@@ -51,7 +51,12 @@ Die Varianten der Taikyoku basieren auf folgenden Ständen (Tachi), Abwehrtechni
 * Sanchin dachi, Kake-uke
 * Zenkutsu dachi, Chūdan Mae-geri, Jōdan Mae-empi-uchi
 
+<YouTube videoid="3cb7OZQdsv0" />
+
 ## Taikyoku mawashi-uke
 
 * Sanchin dachi, Mawashi-uke
 * Shiko dachi, Chūdan Mawashi-empi-uke, Jōdan Uraken-uchi, Haraiotoshi-uke, Chūdan Gyakuzuki
+
+<YouTube videoid="ZrPmmSEt0H4" />
+

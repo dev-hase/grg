@@ -53,6 +53,12 @@ module.exports = {
                 ['/kumite/nage_waza_10-12/', 'Nage Waza 10-12'],
               ]
             },
+                      {
+              title: 'Techniken',
+              children: [
+                ['/techniken/mawashi-uke/', 'Mawashi Uke'],
+              ]
+            },
             {
               title: 'Prüfungsordnung',
               children: [

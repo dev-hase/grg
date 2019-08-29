@@ -25,6 +25,8 @@ Die beiden Kata Sanchin und Tenshō ergänzen sich und bilden zusammen ein Paar,
 
 :::
 
-## Video (Okinawa Style)
+## Kata
+
+<YouTube videoid="4ILVPTNjQMo" start="17" />
 
 <YouTube videoid="jf9eT3P0aU8" />

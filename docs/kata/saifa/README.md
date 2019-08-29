@@ -21,6 +21,18 @@ Die meisten Techniken der Kata werden aus einer engen Nahkampfposition ausgefüh
 
 :::
 
-## Video (Okinawa Style)
+## Kata
 
-<YouTube videoid="h7JrQHl35nM" />
+<YouTube videoid="Hzlg9vJW7Ok" start="15" />
+
+## Kata no ura bunkai
+
+<YouTube videoid="xblr9VkrZtk" />
+
+## Weitere Ideen
+
+<YouTube videoid="JyGTxkkSl4k" />
+
+## Geschichte, Kata und Bunkai
+
+<YouTube videoid="8pwqqoXIxds" />

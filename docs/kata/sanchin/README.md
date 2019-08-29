@@ -32,6 +32,13 @@ Sanchin dient dazu, grundlegende geistige und physische (körperliche) Prinzipie
 
 :::
 
-## Video (Okinawa Style)
+## Kata
 
-<YouTube videoid="kybxNOlnl20" />
+<YouTube videoid="4rRJMNFBaTU" />
+
+<YouTube videoid="3rRxjj0jQvs" />
+
+## Geschichte und Kata
+
+<YouTube videoid="up7hAmRb7KI" />
+

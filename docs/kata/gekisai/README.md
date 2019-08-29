@@ -26,16 +26,22 @@ Gekisai-Dai-Ni ist durch den Vorwärts-/Rückwärts-Schritt im Sanchin-Dachi in 
 
 :::
 
-## Gekisai Dai Ichi (Okinawa Style)
+## Gekisai Dai Ichi
 
-<YouTube videoid="YtcRO7zceIg" />
+<YouTube videoid="fgA_ITNi5FM" start="11" />
 
-## Gekisai Dai Ni (Okinawa Style)
+## Gekisai Dai Ni
 
-<YouTube videoid="7ATBdHJcq-g" />
+<YouTube videoid="d6cMkprYfcQ" start="17" />
 
 ## Bunkai
 
 <YouTube videoid="1hZ4iOHPuGU" start="151"/>
 
-<YouTube videoid="BVE4wIz8Vas" />
+## Kata no ura bunkai
+
+<YouTube videoid="kUdpJXx5aMY" />
+
+## Geschichte, Kata und Bunkai
+
+<YouTube videoid="vJveA7hmw7Q" />
