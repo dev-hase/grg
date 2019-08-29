@@ -23,6 +23,27 @@ Seiyunchin wurde zur Förderung eines starken und stabilen Standes entwickelt. O
 
 :::
 
-## Video (Okinawa Style)
+## Kata
 
-<YouTube videoid="NBoU_T8VF_0" />
+<YouTube videoid="gk_21mm_Vqg" start="18" />
+
+## Bunkai
+
+<YouTube videoid="ZdsRQixRqv0" />
+
+<YouTube videoid="XYGog760_LI" start="485" end="888" />
+
+## Kata no ura bunkai
+
+<YouTube videoid="YoYORlnVIM0" />
+
+## Partnerübung
+
+<YouTube videoid="xaYlA5serTs" />
+
+
+
+
+
+
+

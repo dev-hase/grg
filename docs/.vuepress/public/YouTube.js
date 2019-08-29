@@ -31,7 +31,8 @@ r(function(){
             if (this.getAttribute("data-params")) iframe_url+='&'+this.getAttribute("data-params");
             iframe.setAttribute("src",iframe_url);
             iframe.setAttribute("frameborder",'0');
-            iframe.setAttribute("allow",'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen');
+            iframe.setAttribute("allow",'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;');
+            iframe.setAttribute('allowFullScreen', '');
 
             // The height and width of the iFrame should be the same as parent
             iframe.style.width  = this.style.width;

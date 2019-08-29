@@ -24,6 +24,7 @@ module.exports = {
             {
               title: 'Katas',
               children: [
+                ['/kata/allgemein/', 'Kata - Allgemein'],
                 '/kata/taikyoku/',
                 '/kata/gekisai/',
                 '/kata/sanchin/',
@@ -57,6 +58,7 @@ module.exports = {
               title: 'Techniken',
               children: [
                 ['/techniken/mawashi-uke/', 'Mawashi Uke'],
+                ['/techniken/shuto-uke/', 'Shuto Uke'],
               ]
             },
             {
