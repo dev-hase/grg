@@ -180,6 +180,9 @@ em
 
 .custom-block.tip p:first-child
     margin-top 0
+    
+.custom-block.tip h3
+    margin-top 0   
 
 
 .custom-block.tip p:first-child::first-letter
@@ -189,7 +192,15 @@ em
     margin-right .4rem
     margin-top .1rem
     color tint($accentColorB, 66%)
-    text-shadow -2px -2px 0 tint($textColor, 20%), 2px -2px 0 tint($textColor, 20%), -2px 2px 0 tint($textColor, 20%), 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor    
+    text-shadow -2px -2px 0 tint($textColor, 20%), 2px -2px 0 tint($textColor, 20%), -2px 2px 0 tint($textColor, 20%), 2px 2px 0 tint($textColor, 20%), 2px 2px 5px $textColor   
+    
+blockquote 
+    color tint($textColor, 20%) !important
+    border-right 1rem solid tint($accentColorB, 5%) !important
+    background tint($textColor, 85%)
+    font-size 1.25rem
+    padding-right 1rem
+    transform rotate(.2deg)
     
 .custom-block.danger
     font-size 1.5rem
