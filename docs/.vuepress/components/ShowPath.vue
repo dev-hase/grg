@@ -22,6 +22,7 @@ export default {
                 .sort((a, b) => (a.frontmatter.order > b.frontmatter.order) ? 1 : -1)
         },      
     }
+
 };  
 </script>
 

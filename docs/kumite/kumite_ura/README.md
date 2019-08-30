@@ -19,12 +19,12 @@ Kumite-Ura sind eine Reihe von Partnerformen mit festgelegten Techniken. Es exis
 
 Bei den Kumite-Ura gewinnt grundsätzlich der Angreifer, da der Verteidiger einen Fehler macht. Ziel der Übungen ist es u. a. diesen Fehler zu finden.
 
-[Kumite Ura 1-3](/kumite/kumite_ura_1-3/)
-
-[Kumite Ura 4-6](/kumite/kumite_ura_4-6/)
-
-[Kumite Ura 7-9](/kumite/kumite_ura_7-9/)
-
-[Kumite Ura 10-12](/kumite/kumite_ura_10-12/)
-
 :::
+
+* [Kumite Ura 1-3](/kumite/kumite_ura_1-3/)
+
+* [Kumite Ura 4-6](/kumite/kumite_ura_4-6/)
+
+* [Kumite Ura 7-9](/kumite/kumite_ura_7-9/)
+
+* [Kumite Ura 10-12](/kumite/kumite_ura_10-12/)

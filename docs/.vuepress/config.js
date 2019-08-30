@@ -55,10 +55,11 @@ module.exports = {
               ]
             },
                       {
-              title: 'Techniken',
+              title: 'Grundlagen',
               children: [
-                ['/techniken/mawashi-uke/', 'Mawashi Uke'],
-                ['/techniken/shuto-uke/', 'Shuto Uke'],
+                ['/grundlagen/mawashi-uke/', 'Mawashi Uke'],
+                ['/grundlagen/shuto-uke/', 'Shuto Uke'],
+                ['/grundlagen/fallschule/', 'Fallschule'],
               ]
             },
             {
