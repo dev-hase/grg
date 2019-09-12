@@ -28,4 +28,8 @@ Diese WebApp verwendet den Cache Ihres Browsers um eine Grundfunktionalität im 
 
 Youtube erhebt zudem eigene Daten, sobald ein Video angeschaut wird. Für diese Erhebung ist ausschließlich Youtube verantwortlich.
 
+Netlify, auf deren Servern diese Seite gehostet wird, verwendet zudem Cookies, ebenso GoogleFonts!
+
+
+
 Copyright © 2019-present DanSchmidt
